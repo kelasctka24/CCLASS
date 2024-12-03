@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard - Colid Class</title>
+</head>
+<body class="dashboard-page">
+  <div class="dashboard">
+    <h1>Welcome, <span id="username"></span></h1>
+    <div class="menu">
+      <button class="menu-item" onclick="showPage('kenalan')">Kenalan Yuk</button>
+      <button class="menu-item" onclick="showPage('moment')">Moment</button>
+      <button class="menu-item" onclick="showPage('kuliah')">Kuliah Yuk</button>
+    </div>
+    <button class="logout-button" onclick="logout()">Logout</button>
+  </div>
+  <div id="content"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+<div id="content" class="content"></div>

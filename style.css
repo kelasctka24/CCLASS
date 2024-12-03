@@ -1,0 +1,176 @@
+/* Reset dasar */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('assets/WhatsApp Image 2024-11-29 at 08.56.24_74f7496b.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+  }
+  
+  .container, .dashboard {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(34, 34, 34, 0.95); /* Warna abu gelap transparan */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Header */
+  .dashboard h1 {
+    text-align: center;
+    color: #90caf9; /* Biru doff */
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  /* Menu */
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 12px;
+    background: #424242; /* Abu gelap */
+  }
+  
+  .menu-item {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #e0e0e0;
+    font-weight: bold;
+  }
+  
+  .menu-item:nth-child(1) {
+    background-color: #64b5f6; /* Biru lembut */
+  }
+  
+  .menu-item:nth-child(2) {
+    background-color: #81c784; /* Hijau lembut */
+  }
+  
+  .menu-item:nth-child(3) {
+    background-color: #ffd54f; /* Kuning lembut */
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+  
+  /* Logout button */
+  .logout-button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #f40808; /* Merah lembut */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #f90a06;
+  }
+  
+  /* Konten */
+  .content {
+    padding: 20px;
+    background: #303030; /* Abu medium */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+  }
+  
+  .content h2 {
+    color: #aed581; /* Hijau doff */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  /* Member card */
+  .member {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color: #424242;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    border: 2px solid #90caf9; /* Border biru doff */
+  }
+  
+  .moment-link {
+    color: #64b5f6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .moment-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Jadwal Kuliah */
+  .day {
+    margin-bottom: 20px;
+  }
+  
+  .day h3 {
+    color: #ffd54f; /* Kuning lembut */
+    font-size: 1.2rem;
+  }
+  
+  .subject {
+    margin: 5px 0;
+    padding: 15px;
+    background: #424242;
+    border-left: 5px solid #81c784; /* Hijau lembut */
+    border-radius: 6px;
+  }
+  
+  .subject h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #e0e0e0;
+  }
+  
+  .subject p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #bdbdbd;
+  }
+  @font-face {
+    font-family: "BirdsOfParadise";
+    src: url("assets/fonts/BirdsOfParadise.ttf") format("truetype");
+  }
+  
+  .header-title {
+    font-family: "BirdsOfParadise", cursive;
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
